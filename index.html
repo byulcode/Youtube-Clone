@@ -13,6 +13,7 @@
       src="http://kit.fontawesome.com/2d323a629b.js"
       crossorigin="anonymous"
     ></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -42,32 +43,35 @@
                 <li>#Ellie</li>
             </ul>
             <div class="titleAndButton">
-                <span class="title">
-                    Clone Coding : Youtube Mobile Website 유튜브 모바일 웹사이트 따라 만들기. 
+                <span class="title clamp">
+                    Clone Coding : Youtube Mobile Website 유튜브 모바일 웹사이트 따라 만들기. 드림코딩 by 엘리 채널을 참고하여 만들었으며, 첫 클론코딩이기 때문에 매끄럽지 않은 부분이 많습니다. 이를 고쳐나가면서 프론트엔드 개발자의 길에 첫 걸음을 내딛으려 합니다.
                 </span>
                 <button class="moreBtn"></button>
             </div>
 
-            <div class="views">
-                <span class="views">!M views 1 month ago</span>
-            </div>
+            <span class="views">!M views 1 month ago</span>
         </div>
         <!-- Actions -->
         <div class="actions">
             <li>
-                <button><i class="fas fa-thumbs-up"></i></button>
+                <button>
+                    <i class="active fas fa-thumbs-up"></i></button>
             </li>
             <li>
-                <button><i class="fas fa-thumbs-down"></i></button>
+                <button>
+                    <i class="fas fa-thumbs-down"></i></button>
             </li>
             <li>
-                <button><i class="fas fa-share"></i></button>
+                <button>
+                    <i class="fas fa-share"></i></button>
             </li>
             <li>
-                <button><i class="fas fa-plus"></i></button>
+                <button>
+                    <i class="fas fa-plus"></i></button>
             </li>
             <li>
-                <button><i class="fab fa-font-awesome-flag"></i></button>
+                <button>
+                    <i class="fab fa-font-awesome-flag"></i></button>
             </li>
         </div>
 
@@ -89,7 +93,7 @@
         <span class="title">Up next</span>
         <ul>
             <li class="item">
-                <img src="image/cat1.jpg" alt="" />
+                <div class="img"><img src="image/cat1.jpg" alt="" /></div>
                 <div class="info">
                     <span class="title">귀여운 고양이 보고가세요</span>
                     <span class="name">드림코딩 by byulcode</span>
@@ -98,14 +102,14 @@
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
-                <img src="image/cat2.jfif" alt="" />
-                    <span class="title">노란배경 아깽이 보고가세요</span>
+                <div class="img"><img src="image/cat2.jfif" alt="" /></div>
+                    <span class="title">노란배경 솜뭉치 은 아깽이 보고가세요</span>
                     <span class="name">드림코딩 by byulcode</span>
                     <span class="view">3K views</span>
                 <button class="morBtn"><i class="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
-                <img src="image/cat3.jfif" alt="" />
+                <div class="img"><img src="image/cat3.jfif" alt="" /></div>
                     <span class="title">귀 쫑긋 아기고양이 보고가세요</span>
                     <span class="name">드림코딩 by byulcode</span>
                     <span class="view">12K views</span>
@@ -113,5 +117,8 @@
             </li>
         </ul>
     </section>
+
+    <div class="infoAndUpNext"></div>
+
 </body>
 </html>
